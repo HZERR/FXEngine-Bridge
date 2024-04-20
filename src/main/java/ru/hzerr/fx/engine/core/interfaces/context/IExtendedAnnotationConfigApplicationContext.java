@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.interfaces;
+package ru.hzerr.fx.engine.core.interfaces.context;
 
 import org.springframework.aot.hint.RuntimeHints;
 import org.springframework.beans.BeansException;
@@ -10,6 +10,11 @@ import org.springframework.context.annotation.AnnotationConfigRegistry;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.lang.Nullable;
 import ru.hzerr.collections.list.HList;
+import ru.hzerr.fx.engine.core.interfaces.logging.ILogProvider;
+import ru.hzerr.fx.engine.core.interfaces.configuration.IReadOnlyLoggingConfiguration;
+import ru.hzerr.fx.engine.core.interfaces.engine.*;
+import ru.hzerr.fx.engine.core.interfaces.localization.IApplicationLoggingLocalizationProvider;
+import ru.hzerr.fx.engine.core.interfaces.localization.IEngineLoggingLocalizationProvider;
 
 import java.util.Optional;
 import java.util.function.Predicate;
@@ -29,8 +34,8 @@ public interface IExtendedAnnotationConfigApplicationContext extends AnnotationC
     ILogProvider getApplicationLogProvider();
     ISoftwareConfiguration getSoftwareConfiguration();
     IApplicationConfiguration getApplicationConfiguration();
-    ApplicationLoggingLocalizationProvider getApplicationLoggingLocalizationProvider();
-    EngineLoggingLocalizationProvider getEngineLoggingLocalizationProvider();
+    IApplicationLoggingLocalizationProvider getApplicationLoggingLocalizationProvider();
+    IEngineLoggingLocalizationProvider getEngineLoggingLocalizationProvider();
     // END FLAT
 
     // BEGIN НА ПЕРЕСМОТРЕ

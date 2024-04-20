@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.interfaces;
+package ru.hzerr.fx.engine.core.interfaces.configuration;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.PatternLayout;

@@ -1,7 +1,6 @@
-package ru.hzerr.fx.engine.core.interfaces;
+package ru.hzerr.fx.engine.core.interfaces.engine;
 
-import ru.hzerr.fx.engine.configuration.application.IApplicationConfiguration;
-import ru.hzerr.fx.engine.configuration.logging.ILoggingConfiguration;
+import ru.hzerr.fx.engine.core.interfaces.configuration.ILoggingConfiguration;
 
 public interface ISoftwareConfiguration {
 

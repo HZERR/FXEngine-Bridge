@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.theme;
+package ru.hzerr.fx.engine.core.interfaces.engine;
 
 /**
  * Interface for metadata about a theme.

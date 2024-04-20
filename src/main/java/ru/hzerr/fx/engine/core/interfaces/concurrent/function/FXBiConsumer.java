@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.concurrent.function;
+package ru.hzerr.fx.engine.core.interfaces.concurrent.function;
 
 import javafx.application.Platform;
 

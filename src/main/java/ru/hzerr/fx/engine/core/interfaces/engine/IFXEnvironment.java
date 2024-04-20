@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.interfaces;
+package ru.hzerr.fx.engine.core.interfaces.engine;
 
 import javafx.scene.Scene;
 import javafx.stage.Stage;

@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.interfaces;
+package ru.hzerr.fx.engine.core.interfaces.context;
 
 public interface IExtendedAnnotationConfigApplicationContextSequentialRegistrar extends IExtendedAnnotationConfigApplicationContextInitializer {
 

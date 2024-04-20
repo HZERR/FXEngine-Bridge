@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.entity.exception;
+package ru.hzerr.fx.engine.core.exception;
 
 public class LoadControllerException extends Exception {
 

@@ -1,8 +1,8 @@
-package ru.hzerr.fx.engine.core.concurrent;
+package ru.hzerr.fx.engine.core.interfaces.concurrent;
 
-import ru.hzerr.fx.engine.core.concurrent.function.FXBiConsumer;
-import ru.hzerr.fx.engine.core.concurrent.function.FXConsumer;
-import ru.hzerr.fx.engine.core.concurrent.function.FXRunnable;
+import ru.hzerr.fx.engine.core.interfaces.concurrent.function.FXBiConsumer;
+import ru.hzerr.fx.engine.core.interfaces.concurrent.function.FXConsumer;
+import ru.hzerr.fx.engine.core.interfaces.concurrent.function.FXRunnable;
 
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.Executor;

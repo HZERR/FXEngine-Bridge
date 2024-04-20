@@ -1,6 +1,7 @@
-package ru.hzerr.fx.engine.core.interfaces;
+package ru.hzerr.fx.engine.core.interfaces.logging;
 
 import org.slf4j.Logger;
+import ru.hzerr.fx.engine.core.interfaces.configuration.IReadOnlyLoggingConfiguration;
 
 import java.io.Closeable;
 

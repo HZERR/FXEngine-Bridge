@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.interfaces;
+package ru.hzerr.fx.engine.core.interfaces.context;
 
 import org.springframework.beans.factory.InitializingBean;
 import ru.hzerr.fx.engine.core.exception.ApplicationContextInitializationException;

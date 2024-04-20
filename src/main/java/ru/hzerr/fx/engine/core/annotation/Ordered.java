@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.context;
+package ru.hzerr.fx.engine.core.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

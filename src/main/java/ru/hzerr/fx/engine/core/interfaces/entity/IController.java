@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.interfaces.engine;
+package ru.hzerr.fx.engine.core.interfaces.entity;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.scene.Parent;

@@ -1,6 +1,7 @@
-package ru.hzerr.fx.engine.core.interfaces;
+package ru.hzerr.fx.engine.core.interfaces.localization;
 
 import com.typesafe.config.ConfigSyntax;
+import ru.hzerr.fx.engine.core.interfaces.path.ILocation;
 
 import java.util.Locale;
 
