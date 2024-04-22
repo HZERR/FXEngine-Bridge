@@ -8,4 +8,7 @@ module FXEngine.Bridge {
     requires ch.qos.logback.core;
     requires org.jetbrains.annotations;
     requires typesafe.config;
+    requires javafx.graphics;
+    requires javafx.fxml;
+    requires javafx.controls;
 }
