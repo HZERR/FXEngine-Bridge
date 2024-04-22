@@ -9,10 +9,10 @@
     <version>1.0</version>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <author>HZERR</author>
     </properties>
 
@@ -121,31 +121,35 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>6.1.6</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.typesafe/config -->
         <dependency>
             <groupId>com.typesafe</groupId>
             <artifactId>config</artifactId>
             <version>1.4.3</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>2.1.0-alpha1</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.5.3</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>24.1.0</version>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
 
         <!-- ============================== ↓ HZERR LIBRARY ↓ ============================== -->
@@ -153,6 +157,7 @@
             <groupId>com.github.HZERR</groupId>
             <artifactId>CommonInstruments-JDK17</artifactId>
             <version>1.4.2.2</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- ============================== ↓ JAVA FX ↓ ============================== -->
@@ -161,30 +166,35 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>22-ea+16</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-graphics -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-graphics</artifactId>
             <version>22-ea+16</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>22-ea+16</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-media -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-media</artifactId>
             <version>22-ea+16</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-base -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
             <version>22-ea+16</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
