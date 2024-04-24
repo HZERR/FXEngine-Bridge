@@ -1,4 +1,4 @@
-package ru.hzerr.fx.engine.core.annotation.as;
+package ru.hzerr.fx.engine.core.annotation.metadata;
 
 import ru.hzerr.fx.engine.core.annotation.MetaData;
 
@@ -7,8 +7,10 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@MetaData("engineLoggingLocalizationProvider")
+import static ru.hzerr.fx.engine.core.annotation.MetaData.ENGINE_LOGGING_LOCALIZATION_PROVIDER;
+
+@MetaData(ENGINE_LOGGING_LOCALIZATION_PROVIDER)
 @Target({ElementType.CONSTRUCTOR, ElementType.METHOD, ElementType.PARAMETER, ElementType.FIELD, ElementType.ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface EngineLoggingLocalizationProviderMetaData {
+public @interface EngineLoggingLocalizationProvider {
 }

@@ -1,19 +1,16 @@
-package ru.hzerr.fx.engine.core.annotation.as;
+package ru.hzerr.fx.engine.core.annotation.metadata;
 
-import ru.hzerr.fx.engine.core.annotation.IncludeAs;
+import ru.hzerr.fx.engine.core.annotation.MetaData;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@IncludeAs("applicationLoggingLocalizationProvider")
+import static ru.hzerr.fx.engine.core.annotation.MetaData.APPLICATION_LOGGING_LOCALIZATION_PROVIDER;
+
+@MetaData(APPLICATION_LOGGING_LOCALIZATION_PROVIDER)
 @Target({ElementType.CONSTRUCTOR, ElementType.METHOD, ElementType.PARAMETER, ElementType.FIELD, ElementType.ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ApplicationLoggingLocalizationProvider {
-    /**
-     * Declares whether the annotated dependency is required.
-     * <p>Defaults to {@code true}.
-     */
-    boolean required() default true;
 }
