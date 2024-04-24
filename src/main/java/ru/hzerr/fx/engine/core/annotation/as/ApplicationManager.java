@@ -6,7 +6,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @IncludeAs("applicationManager")
-@Retention(RetentionPolicy.RUNTIME)
 public @interface ApplicationManager {
     /**
      * Declares whether the annotated dependency is required.
