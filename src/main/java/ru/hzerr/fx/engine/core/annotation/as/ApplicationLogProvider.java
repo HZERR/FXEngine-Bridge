@@ -6,7 +6,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @IncludeAs("applicationLogProvider")
-@Retention(RetentionPolicy.RUNTIME)
 public @interface ApplicationLogProvider {
     /**
      * Declares whether the annotated dependency is required.
