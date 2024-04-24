@@ -7,7 +7,6 @@ import java.lang.annotation.Target;
 
 @Registered
 @Prototype
-@Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER, ElementType.TYPE, ElementType.ANNOTATION_TYPE})
 public @interface RegisteredPrototype {
 }
