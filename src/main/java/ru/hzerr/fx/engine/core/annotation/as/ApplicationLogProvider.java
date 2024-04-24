@@ -13,5 +13,4 @@ public @interface ApplicationLogProvider {
      * <p>Defaults to {@code true}.
      */
     boolean required() default true;
-
 }
