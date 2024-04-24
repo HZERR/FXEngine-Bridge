@@ -5,7 +5,12 @@ import ru.hzerr.fx.engine.core.annotation.IncludeAs;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-@Retention(RetentionPolicy.RUNTIME)
 @IncludeAs("applicationLogProvider")
 public @interface ApplicationLogProvider {
+    /**
+     * Declares whether the annotated dependency is required.
+     * <p>Defaults to {@code true}.
+     */
+    boolean required() default true;
+
 }
