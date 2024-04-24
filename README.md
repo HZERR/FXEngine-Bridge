@@ -1,6 +1,14 @@
 # Example
 
 ```java
+import ru.hzerr.capmonster.request.ImageToTextRequest;
+import ru.hzerr.capmonster.response.Response;
+import ru.hzerr.capmonster.response.impl.ImageToTextData;
+import ru.hzerr.fx.engine.core.annotation.Include;
+import ru.hzerr.fx.engine.core.annotation.RegisteredPrototype;
+import ru.hzerr.fx.engine.core.annotation.metadata.EngineLogProvider;
+import ru.hzerr.fx.engine.core.interfaces.logging.ILogProvider;
+
 @Registered
 public class Capmonster extends AbstractCapmonster {
 
