@@ -2,11 +2,13 @@ package ru.hzerr.fx.engine.core.annotation.as;
 
 import ru.hzerr.fx.engine.core.annotation.IncludeAs;
 
+import java.lang.annotation.Inherited;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @IncludeAs("applicationLogProvider")
-@Retention(RetentionPolicy.RUNTIME)
+@Inherited
+@Retention(RetentionPolicy.CLASS)
 public @interface ApplicationLogProvider {
     /**
      * Declares whether the annotated dependency is required.
