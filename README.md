@@ -9,10 +9,14 @@ import ru.hzerr.fx.engine.core.annotation.RegisteredPrototype;
 import ru.hzerr.fx.engine.core.annotation.metadata.EngineLogProvider;
 import ru.hzerr.fx.engine.core.interfaces.logging.ILogProvider;
 
-@Registered
-public class Capmonster implements ICapmonster {
+@RegisteredPrototype
+public class Capmonster extends AbstractCapmonster {
 
     private ILogProvider logProvider;
+
+    public Capmonster(String clientKey) {
+        super(clientKey);
+    }
 
     @Override
     public Response<ImageToTextData> send(ImageToTextRequest imageToTextRequest) {
@@ -25,6 +29,10 @@ public class Capmonster implements ICapmonster {
     @Include(required = false)
     public void setLogProvider(@EngineLogProvider ILogProvider logProvider) {
         this.logProvider = logProvider;
+    }
+
+    public static Capmonster from(String clientKey) {
+        return new Capmonster(clientKey);
     }
 }
 ```
