@@ -14,6 +14,15 @@
 </dependency>
 ```
 
+### Дополнительно
+Библиотеки не поставляются вместе с FXEngine-Bridge. Вы должны сами добавить их в свой проект при необходимости
+
+1. [Spring Context 6.1.6](https://mvnrepository.com/artifact/org.springframework/spring-context)
+2. [TypeSafe Config 1.4.3](https://mvnrepository.com/artifact/com.typesafe/config)
+3. [SLF4J API 2.1.0-alpha1](https://mvnrepository.com/artifact/org.slf4j/slf4j-api)
+4. [Logback Classic 1.5.3](https://mvnrepository.com/artifact/ch.qos.logback/logback-classic)
+5. [CommonInstruments-JDK17 1.4.2.2](https://jitpack.io/#HZERR/CommonInstruments-JDK17/1.4.2.2)
+
 ### Пример использования
 
 ```java
